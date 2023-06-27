@@ -28,4 +28,4 @@ def connects_lang():
 
 @app.get('/')
 async def root():
-    return {"message" : "hello world" , "data" : connects_lang()}
+    return {"message" : "hello world" , "data" : "data"}
