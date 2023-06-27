@@ -19,8 +19,10 @@ def connects_lang():
     llm = OpenAI(temperature=0)
 
     db_chain = SQLDatabaseChain(llm=llm, database=db, verbose=True)
-
+    # try:
     return db_chain.run("what is the exchage rate of INR")
+    # except Exception:
+    #     return "sorry i couldn't find matching data , please try again or give more explanation"
     
 
 
