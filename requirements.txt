@@ -2,9 +2,9 @@ langchain
 uvicorn
 langchain_community
 python-dotenv
-psycopg2
 psycopg2-binary
 openai
 langchain-openai
 streamlit
 pandas
+psycopg2
